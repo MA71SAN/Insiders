@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Insiders — Coming Soon</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00FF00;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+    .terminal {
+      background: #111;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #0f0;
+      max-width: 90%;
+      text-align: center;
+    }
+    .prompt {
+      color: #0f0;
+    }
+    .cursor {
+      display: inline-block;
+      width: 10px;
+      background-color: #0f0;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <div class="prompt">> Insiders // Coming Soon<span class="cursor"></span></div>
+  </div>
+</body>
+</html>
