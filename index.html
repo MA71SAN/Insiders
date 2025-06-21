@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Insiders — Coming Soon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insiders – Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #000;
-      color: #00FF00;
-      font-family: 'Courier New', Courier, monospace;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #000000;
+      color: #FFFFFF;
+      display: flex;
       flex-direction: column;
-    }
-    .terminal {
-      background: #111;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px #0f0;
-      max-width: 90%;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
     }
-    .prompt {
-      color: #0f0;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
     }
-    .cursor {
-      display: inline-block;
-      width: 10px;
-      background-color: #0f0;
-      animation: blink 1s infinite;
+
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
     }
-    @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 0; }
-      100% { opacity: 1; }
+
+    a {
+      font-size: 1.25rem;
+      color: #FFFFFF;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
-  <div class="terminal">
-    <div class="prompt">> Insiders // Coming Soon<span class="cursor"></span></div>
-  </div>
+  <h1>Insiders</h1>
+  <p>Coming Soon</p>
+  <a href="mailto:pitch@insiders.vc">Email us: pitch@insiders.vc</a>
 </body>
 </html>
