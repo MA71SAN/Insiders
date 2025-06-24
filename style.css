@@ -1,0 +1,104 @@
+/* ===========================
+   DM Mono Font Weight Styles
+   =========================== */
+.dm-mono-light {
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.dm-mono-regular {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-mono-medium {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* ===========================
+   DM Mono Italic Styles
+   =========================== */
+.dm-mono-light-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.dm-mono-regular-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.dm-mono-medium-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* ===========================
+   Page Layout and Typography
+   =========================== */
+body {
+  margin: 0;
+  font-family: 'DM Sans', 'DM Mono', monospace, sans-serif;
+  background-color: #112534;
+  color: #e0d6d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'DM Mono', monospace;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  font-size: 1.25rem;
+  color: #fe7a4d;
+  text-decoration: none;
+  font-family: 'DM Mono', monospace;
+  font-weight: 400;
+}
+
+a:hover {
+  opacity: 0.8;
+  color: #e0d6d3;
+}
+
+/* ===========================
+   Logo Styles
+   =========================== */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.logo-img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  display: block;
+}
+
